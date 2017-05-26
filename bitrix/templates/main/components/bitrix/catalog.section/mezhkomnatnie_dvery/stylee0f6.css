@@ -1,0 +1,56 @@
+.swiper___wrp {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+span.swiper-pagination-style{
+    display: block;
+    text-align: center;
+    width: 33.33333%;
+    float: left;
+}
+
+span.swiper-pagination-style > img{
+    padding: 2px;
+    border: 2px solid transparent;
+    border-radius: 100px;
+}
+
+span.swiper-pagination-style.active > img{
+    border: 2px solid #fbc102;
+}
+
+span.swiper-pagination-style > div{
+    font-size: 15px;
+}
+.swiper-pagination-custom:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.swiperBtn___next, .swiperBtn___prev{
+    position: absolute;
+    top: 270px;
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+	z-index:2;
+}
+.swiperBtn___prev{
+    background: transparent url(../../../../../../../img/dvstr_left_act.png) no-repeat 0 0;
+    left: 40px;
+}
+.swiperBtn___next{
+    background: transparent url(../../../../../../../img/dvstr_right_act.png) no-repeat 0 0;
+    right: 40px;
+}
+.mainkaruselbgdvrazd{
+    position: relative;
+}
+.swiper-pagination-style.cursorArrow:hover, 
+.swiper-pagination-style.cursorArrow{
+    cursor: default;
+}
